@@ -55,12 +55,40 @@
                         <constraints>
                             <constraint firstItem="568-NG-DyI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6wB-zm-1gc"/>
                             <constraint firstItem="568-NG-DyI" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="8kZ-1f-u08"/>
+                            <constraint firstItem="568-NG-DyI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9w7-bU-rOC"/>
                             <constraint firstItem="568-NG-DyI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="AG8-JI-cC2"/>
                             <constraint firstAttribute="trailing" secondItem="9zV-Rd-fzH" secondAttribute="trailing" id="C3t-0h-36c"/>
+                            <constraint firstItem="9zV-Rd-fzH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ukg-tn-aOo"/>
                             <constraint firstItem="9zV-Rd-fzH" firstAttribute="top" secondItem="568-NG-DyI" secondAttribute="bottom" constant="20" id="VRC-So-gai"/>
+                            <constraint firstItem="568-NG-DyI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="WTb-om-1Eg"/>
+                            <constraint firstItem="9zV-Rd-fzH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="b0S-wn-RvR"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9zV-Rd-fzH" secondAttribute="bottom" id="yKI-hT-N0p"/>
+                            <constraint firstItem="568-NG-DyI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="yL4-SG-DRs"/>
                             <constraint firstItem="9zV-Rd-fzH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ybr-wZ-nz0"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9w7-bU-rOC"/>
+                                <exclude reference="WTb-om-1Eg"/>
+                                <exclude reference="yL4-SG-DRs"/>
+                                <exclude reference="Ukg-tn-aOo"/>
+                                <exclude reference="b0S-wn-RvR"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="6wB-zm-1gc"/>
+                                <exclude reference="8kZ-1f-u08"/>
+                                <include reference="9w7-bU-rOC"/>
+                                <exclude reference="AG8-JI-cC2"/>
+                                <include reference="WTb-om-1Eg"/>
+                                <include reference="yL4-SG-DRs"/>
+                                <include reference="Ukg-tn-aOo"/>
+                                <exclude reference="VRC-So-gai"/>
+                                <include reference="b0S-wn-RvR"/>
+                                <exclude reference="ybr-wZ-nz0"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
