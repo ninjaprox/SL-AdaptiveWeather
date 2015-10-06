@@ -23,26 +23,34 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9zV-Rd-fzH" userLabel="TextContainer">
                                 <rect key="frame" x="0.0" y="237" width="600" height="363"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupertino" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1s-QU-2NP">
-                                        <rect key="frame" x="-4" y="10" width="608" height="180"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupertino" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="R1s-QU-2NP">
+                                        <rect key="frame" x="0.0" y="10" width="600" height="180"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="150"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="90"/>
+                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Np-Bs-wtR">
-                                        <rect key="frame" x="80" y="54" width="440" height="299"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2Np-Bs-wtR">
+                                        <rect key="frame" x="0.0" y="54" width="600" height="299"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="250"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="150"/>
+                                        </variation>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.21568627450980393" green="0.50196078431372548" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="R1s-QU-2NP" firstAttribute="top" secondItem="9zV-Rd-fzH" secondAttribute="top" constant="10" id="1Jz-NO-5hX"/>
+                                    <constraint firstItem="2Np-Bs-wtR" firstAttribute="width" secondItem="9zV-Rd-fzH" secondAttribute="width" id="1gD-qC-pyS"/>
                                     <constraint firstItem="R1s-QU-2NP" firstAttribute="centerX" secondItem="9zV-Rd-fzH" secondAttribute="centerX" id="3Xn-QJ-kAh"/>
                                     <constraint firstItem="2Np-Bs-wtR" firstAttribute="centerX" secondItem="9zV-Rd-fzH" secondAttribute="centerX" id="4Xm-CP-LGx"/>
                                     <constraint firstItem="2Np-Bs-wtR" firstAttribute="top" secondItem="R1s-QU-2NP" secondAttribute="bottom" constant="10" id="OJB-rU-Ubq"/>
                                     <constraint firstAttribute="bottom" secondItem="2Np-Bs-wtR" secondAttribute="bottom" constant="10" id="UM0-Se-xz0"/>
+                                    <constraint firstItem="R1s-QU-2NP" firstAttribute="width" secondItem="9zV-Rd-fzH" secondAttribute="width" id="bJp-tS-4Pm"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
